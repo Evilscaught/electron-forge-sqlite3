@@ -15,6 +15,8 @@ NVM Version:    0.40.3
 npm install
 npm run start
 ```
+When the application starts you should see:
+<img width="1267" alt="Capture d’écran 2025-06-28 à 11 45 42 AM" src="https://github.com/user-attachments/assets/42951f3d-df1b-44fb-9878-1275031697b5" />
 
 ## Reproducing the SQLite3 Error
 Run the following commands
@@ -36,6 +38,7 @@ at z._loadDialectModule (/Users/evilscaught/Documents/electron-forge-sqlite3/out
 
 ...
 ```
+<img width="550" alt="Capture d’écran 2025-06-28 à 11 47 06 AM" src="https://github.com/user-attachments/assets/20114633-8cd3-44c4-a6ca-f58f2f203acc" />
 
 
 # Environment used in setting up this project
