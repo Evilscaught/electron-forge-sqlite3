@@ -26,7 +26,7 @@ Run the following commands
 ```
 Those commands should compile and package the program. <br />
 Once you've done that, navigate to the newly created directory where you'll find the executables <br />
-For example, on my set-up the executable was created at `@project-directory/out/electron-forge-sqlite3-darwin-arm64/electron-forge-sqlite3` but this might vary slightly depending ont he operating system.
+For example, on my set-up the executable was created at `@project-directory/out/electron-forge-sqlite3-darwin-arm64/electron-forge-sqlite3` but this might vary slightly depending on the operating system.
 
 Once the executable is located, run it and you should get the following error (or something similar):
 
