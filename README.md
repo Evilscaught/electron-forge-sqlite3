@@ -1,4 +1,5 @@
 # Electron + Forge + SQLite3 
+This repository is intended to serve as a boilerplate for any programmers wishing to jump-start an application using Electron with SQLite3 and sequelizer as an ORM.
 
 # Getting Started
 
@@ -18,7 +19,29 @@ npm run start
 When the application starts you should see:
 <img width="1267" alt="Capture d’écran 2025-06-28 à 11 45 42 AM" src="https://github.com/user-attachments/assets/42951f3d-df1b-44fb-9878-1275031697b5" />
 
-## Reproducing the SQLite3 Error
+## Building the application
+```
+npm run package
+npm run make
+```
+This will create a directory `out/` in your project with the OS specific production builds.
+
+
+<Details>
+<Summary>
+  
+##  Reproducing the SQLite3 Error [Resolved]
+  
+</Summary>
+
+⚠️
+#### If you're reading this, please know that this bug has been solved as of commit [0bdd3a327f27b7dcdf200f5a88736276a0a870b3](https://github.com/Evilscaught/electron-forge-sqlite3/commit/0bdd3a327f27b7dcdf200f5a88736276a0a870b3). If you're on the latest commit of this repository, SQLite3 will be included in the production build and you will not get the error described below.
+⚠️
+
+---
+
+Link to the Stack Overflow Question: https://stackoverflow.com/questions/79699496/how-to-properly-include-sqlite3-with-an-electron-electron-forge-sequelizer-set
+
 Run the following commands
 ```
   npm run package
@@ -39,6 +62,8 @@ at z._loadDialectModule (/Users/evilscaught/Documents/electron-forge-sqlite3/out
 ...
 ```
 <img width="550" alt="Capture d’écran 2025-06-28 à 11 47 06 AM" src="https://github.com/user-attachments/assets/20114633-8cd3-44c4-a6ca-f58f2f203acc" />
+
+</Details>
 
 
 # Environment used in setting up this project
