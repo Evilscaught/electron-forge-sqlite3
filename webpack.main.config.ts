@@ -13,7 +13,7 @@ export const mainConfig: Configuration = {
   module: {
     rules,
   },
-  externals: ['pg-hstore'],
+  externals: ['pg-hstore', 'sqlite3'],
   plugins,
   resolve: {
     extensions: ['.js', '.ts', '.jsx', '.tsx', '.css', '.json'],
